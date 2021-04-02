@@ -1,0 +1,6 @@
+cc_library_headers {
+    name: "intel_vbp_mix_headers",
+    export_include_dirs: [
+        "libmediaparser/mixvbp/vbp_manager/include",
+    ],
+}
