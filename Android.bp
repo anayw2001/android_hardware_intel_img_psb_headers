@@ -4,3 +4,10 @@ cc_library_headers {
         "libmediaparser/mixvbp/vbp_manager/include",
     ],
 }
+
+cc_library_headers {
+    name: "intel_drm_headers",
+    export_include_dirs: [
+        "DRM/cc54/inc",
+    ],
+}
